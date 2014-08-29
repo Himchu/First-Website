@@ -1,0 +1,54 @@
+* { padding:0; margin:0;}
+
+body {
+
+}
+.wrapper {
+	width:800px;
+	margin: 0 auto;
+	padding: 2em 0;
+}
+.header {
+	background:#FEE;
+}
+.wrapper:after {
+	display: block;
+	content: '';
+	clear: both;
+	height: 0px; overflow: hidden;
+}
+.main {
+	background:#EFE;
+	overflow:hidden;
+}
+.footer {
+	background:#EEF;
+}
+.future .wrapper { padding: 1em;}
+.future p {
+	background: rgba(0,0,0,0.8);
+	color: #FFF;
+	padding: 1.5em 2em;
+}
+.future p:first-child {
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+}
+.future p:last-child {
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+}
+.future p + p { padding-top: 0; }
+.future {
+	background:#F5F5DC url("1280px-Hopetoun_falls.jpg") right 30% no-repeat;
+	background-size: cover;
+}
+/* Collums */
+
+.colum { float: left; overflow:hidden; }
+.content {
+width:70%;
+}
+.siderbar {
+width:30%;
+}
